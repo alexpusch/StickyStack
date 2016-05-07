@@ -1,6 +1,6 @@
 {
   "name": "stickyStack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Make your reading context stick while scrolling",
   "main": "dist/stickyStack.js",
   "repository": {
