@@ -28,6 +28,7 @@
     "jquery": "^2.2.3",
     "mocha": "^2.4.5",
     "mocha-loader": "^0.7.1",
+    "waypoints": "^4.0.0",
     "webpack": "^1.12.10",
     "webpack-dev-server": "^1.14.1",
     "webpack-notifier": "^1.2.1"
