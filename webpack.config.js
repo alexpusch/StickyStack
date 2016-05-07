@@ -12,7 +12,6 @@ module.exports = {
       umdNamedDefine: true,
 
   },
-  devtool: "#inline-source-map",
   module : {
     loaders: [ {
         test   : /.js$/,

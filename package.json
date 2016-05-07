@@ -34,8 +34,9 @@
     "webpack-notifier": "^1.2.1"
   },
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --inline --hot --port=9090",
+    "start": "node_modules/.bin/webpack-dev-server --inline --hot --debug --devtool source-map --port=9090",
     "build": "node_modules/.bin/webpack",
+    "build-production": "npm run build -- -p --output-file=stickyStack.min.js",
     "prepublish": "npm run build && npm run build -- -p --output-file=stickyStack.min.js",
     "test": "webpack-dev-server 'mocha!./specs/specs.js' --port  9091 --hot --inline --output-filename test.js",
     "test-raw": "mocha --compilers js:babel-core/register --colors -w ./specs/*_specs.js"
