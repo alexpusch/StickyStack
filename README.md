@@ -1,13 +1,13 @@
 StickyStack
 =============
-## Make you reading context, titles, and subtitles stick while user scroll the page
+## Make you reading context, titles, and subtitles stick while user scroll the page - [Demo](http://alexpusch.github.io/StickyStack)
 
 ### Usage
 
 #### Plain use:
 
 ```html
-<script type="text/javascript" src='stickyStack.js'></script>
+<script type="text/javascript" src='stickyStack.min.js'></script>
 ```
 
 #### Browserify, Webpack, etc.
