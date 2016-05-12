@@ -21,13 +21,16 @@ h1, h2, h3, .speech{
   position: relative;
 }
 
-.header .title{
-  padding-bottom: 10px;
-}
-
 .header{
   padding-bottom: 10px;
+
 }
+
+.header .title{
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
 
 .link-to-docs{
   display: flex;
