@@ -5,8 +5,9 @@
   "main": "dist/stickyStack.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexpusch/stikcyStack.git"
+    "url": "https://github.com/alexpusch/StickyStack.git"
   },
+  "homepage": "http://alexpusch.github.io/StickyStack/",
   "keywords": [
     "scroll",
     "ux"
