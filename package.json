@@ -1,7 +1,7 @@
 {
   "name": "stickyStack",
   "version": "1.0.0",
-  "description": "Make your reading context stick while scrolling",
+  "description": "Make you reading context, titles, and subtitles stick while user scroll the page",
   "main": "dist/stickyStack.js",
   "repository": {
     "type": "git",
@@ -37,7 +37,7 @@
     "start": "node_modules/.bin/webpack-dev-server --inline --hot --debug --devtool source-map --port=9090",
     "build": "node_modules/.bin/webpack",
     "build-production": "npm run build -- -p --output-file=stickyStack.min.js",
-    "prepublish": "npm run build && npm run build -- -p --output-file=stickyStack.min.js",
+    "prepublish": "npm run build && npm run build-production",
     "test": "webpack-dev-server 'mocha!./specs/specs.js' --port  9091 --hot --inline --output-filename test.js",
     "test-raw": "mocha --compilers js:babel-core/register --colors -w ./specs/*_specs.js"
   }
