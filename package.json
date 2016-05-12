@@ -1,6 +1,6 @@
 {
   "name": "stickyStack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make you reading context, titles, and subtitles stick while user scroll the page",
   "main": "dist/stickyStack.js",
   "repository": {
