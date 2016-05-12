@@ -1,0 +1,26 @@
+{
+  "name": "stickyStack",
+  "description": "Make you reading context, titles, and subtitles stick while user scroll the page",
+  "main": "dist/stickyStack.min.js",
+  "authors": [
+    "Alex Puschinsky"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "scroll",
+    "ux"
+  ],
+  "homepage": "https://github.com/alexpusch/StickyStack",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "webpack.config.js",
+    "specs"
+  ]
+}
