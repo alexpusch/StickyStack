@@ -21,6 +21,18 @@ h1, h2, h3, .speech{
   position: relative;
 }
 
+@media (max-width: 600px){
+  .wrapper{
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  h1, h2, h3, .speech{
+    width: 90%;
+    padding: 0 5%;
+  }
+}
+
 .header{
   padding-bottom: 10px;
 
