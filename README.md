@@ -1,6 +1,8 @@
 StickyStack
 =============
-## Make you reading context, titles, and subtitles stick while user scroll the page - [Demo](http://alexpusch.github.io/StickyStack)
+## Make your reading context, titles, and subtitles stick while user scrolls the page - [Demo](http://alexpusch.github.io/StickyStack)
+
+![StickyStack example](./demo-assets/example.gif)
 
 ### Usage
 
